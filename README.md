@@ -22,7 +22,7 @@ part2.py
 README.md
 
 - `input.txt` contains the puzzle input.
-- `part1.py` and `part2.py` contains my solution for the day.
+- `part1.py` and `part2.py` contains my solutions for the day.
 - `README.md` contains the puzzle of the day
 
 ## Tech Stack
