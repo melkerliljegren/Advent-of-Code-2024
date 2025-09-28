@@ -14,6 +14,7 @@ input.txt
 part1.py
 part2.py
 README.md
+
 day02/
 input.txt
 part1.py
@@ -21,7 +22,7 @@ part2.py
 README.md
 
 - `input.txt` contains the puzzle input.
-- `part1.py` and `part2.py` contains my solution for that day.
+- `part1.py` and `part2.py` contains my solution for the day.
 - `README.md` contains the puzzle of the day
 
 ## Tech Stack
