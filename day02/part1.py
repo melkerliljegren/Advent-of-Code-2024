@@ -5,31 +5,23 @@ safe = 0
 
 for line in lists:
     length = len(line)
-    check1 = None
-    check2 = None
+    count1 = 0
+    count2 = 0
 
     for x in range(1, length):
         if line[x] > line[x - 1] and abs(line[x] - line[x - 1]) < 4:
-            check1 = True
+            count1 += 1
+            if count1 == (length - 1):
+                safe += 1
             continue
-        else:
-            check1 = False
-            break
 
-    if check1 is True:
-        safe += 1
-        continue
-
-    for x in range(1, length):
-        if line[x] < line[x - 1] and abs(line[x] - line[x - 1]) < 4:
-            check2 = True
+        elif line[x] < line[x - 1] and abs(line[x] - line[x - 1]) < 4:
+            count2 += 1
+            if count2 == (length - 1):
+                safe += 1
             continue
-        else:
-            check2 = False
-            break
 
-    if check2 is True:
-        safe += 1
-        continue
+        else:
+            break
 
 print(safe)
