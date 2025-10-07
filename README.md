@@ -1,6 +1,6 @@
 # Advent of Code 2024 🎄
 
-![Progress](https://img.shields.io/badge/Progress-2%2F25%20days-blue)
+![Progress](https://img.shields.io/badge/Progress-3%2F25%20days-blue)
 
 This repository contains my solutions for [Advent of Code 2024](https://adventofcode.com/2024).  
 My goal is to practice problem solving, algorithmic thinking, and improve my ability to write clean and efficient Python code while also getting more comfortable with Git and GitHub.
