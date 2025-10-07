@@ -3,11 +3,13 @@ with open("day02/input.txt", "r") as f:
 
 safe = 0
 
+# Looping trough each list and implementing starting values
 for line in lists:
     length = len(line)
     count1 = 0
     count2 = 0
 
+    #   Checking each number with its neighbours
     for x in range(1, length):
         if line[x] > line[x - 1] and abs(line[x] - line[x - 1]) < 4:
             count1 += 1
@@ -23,6 +25,8 @@ for line in lists:
                 break
             continue
 
+        #       If a code is not safe one of the numbers gets removed and we do the process again
+        #       (we try it with both numbers that could be the root to the problem)
         else:
             line2 = line.copy()
             line2.pop(x - 1)
