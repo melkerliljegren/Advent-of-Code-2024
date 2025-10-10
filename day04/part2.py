@@ -5,6 +5,10 @@ dirs = [(1, 1), (1, -1)]  # Diagonals
 R, C = len(grid), len(grid[0])
 
 count = 0
+"""
+Iterating through each row and column. For each "A" we check if there is a
+"M" and "S" on the two diagonals.
+"""
 for r in range(R):
     for c in range(C):
         if grid[r][c] != "A":
