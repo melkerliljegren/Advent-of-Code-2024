@@ -14,7 +14,7 @@ for x, y in rules:
 
 """
 Looping trough each update and if the order works 
-with the rules the number in the middle gets added to the total
+with the rules, the number in the middle gets added to the total
 """
 total = 0
 for update in updates:
